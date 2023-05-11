@@ -19,7 +19,7 @@ def run_code():
 
         mask = cv2.inRange(hsv, lower_purple, upper_purple)
 
-        if cv2.countNonZero(mask) > 100:
+        if cv2.countNonZero(mask) > 150:
             webbrowser.open('https://zen-banz-info.w3spaces.com/')
             break
 
